@@ -1,0 +1,157 @@
+/* Positioning for the image and text container */
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the image */
+.food {
+    width: 50%; /* Adjust width as needed */
+    height: auto;
+}
+
+/* Style for the text container */
+.text-container {
+    width: 50%; /* Adjust width as needed */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the circle button */
+.circle-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: white;
+    color: rgb(116, 116, 222);
+    text-decoration: none;
+    margin-top: 20px;
+    border: 1px solid blueviolet; /* Add black border */
+}
+
+
+
+
+
+
+
+
+
+
+
+.meal-container {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    flex-wrap: wrap; /* Allow items to wrap to a new line */
+}
+
+.meal {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    margin: 5px; /* Adjust the margin between meal items */
+    width: calc(20% - 20px); /* Adjust width to fit five items in a row with margins */
+    max-width: 200px; /* Limit maximum width */
+    flex: 1; /* Allow items to grow and shrink equally */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add faded box shadow */
+    transition: box-shadow 0.3s ease; /* Add transition effect */
+}
+
+.meal:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Highlight on hover */
+}
+
+.meal .image {
+    width: 100%; /* Make image responsive */
+    max-width: 200px; /* Limit maximum width */
+}
+
+.meal .text {
+   
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    box-shadow: none; /* Remove box shadow from text */
+    margin-top: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sud-container {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    flex-wrap: wrap; /* Allow items to wrap to a new line */
+    margin: 0 -10px; /* Adjust the negative margin to counteract the margins on the .sud elements */
+}
+
+.sud {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    margin: 10px; /* Adjust the margin between meal items */
+    width: calc(20% - 20px); /* Adjust width to fit five items in a row with margins */
+    max-width: 200px; /* Limit maximum width */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add faded box shadow */
+    transition: box-shadow 0.3s ease; /* Add transition effect */
+}
+
+.sud:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Highlight on hover */
+}
+
+.sud .image {
+    width: 100%; /* Make image responsive */
+    max-width: 200px; /* Limit maximum width */
+}
+
+.sud .text {
+    margin-top: 10px; /* Adjust the margin as needed */
+    text-align: center; /* Center text horizontally */
+}
+
+
+
+.procedure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+}
+
+.procedure-item {
+    flex: 0 0 calc(20% - 20px); /* Adjust the width of each item */
+    max-width: 250px; /* Limit maximum width */
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Adjust blur radius and color as needed */
+    padding: 5px; /* Reduce padding for a smaller size */
+    border-radius: 1px;
+    margin-right: 35px; /* Adjust right margin as needed */
+    margin-bottom: 30px; /* Adjust bottom margin for spacing between items */
+}
+
+.procedure-item:last-child {
+    margin-right: 0; /* Remove right margin from the last item */
+}
+
+.spacer {
+    margin-left: 150px; /* Adjust as needed */
+}
+.proceduredpic img {
+    max-width: 250px; /* Set the maximum width of the image */
+    max-height: 300px; /* Set the maximum height of the image */
+    display: block; /* Ensure the image behaves as a block element */
+    margin: auto; /* Center the image horizontally within its container */
+}
+.aa{
+    color:gray;
+}
